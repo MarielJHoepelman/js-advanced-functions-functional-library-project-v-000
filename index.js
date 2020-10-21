@@ -117,7 +117,7 @@ const fi = (function() {
           for(let element of collection) {
             let result = iteratee(element)
 
-            if(!newArr.has(r)){
+            if(!modulos.has(result)){
               modulos.add(r)
               newArr.add(element)
             }
