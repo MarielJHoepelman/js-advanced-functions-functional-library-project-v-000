@@ -118,10 +118,10 @@ const fi = (function() {
 
             if(!modulos.has(result)){
               modulos.add(result)
-              newArr.add(element)
+              solution.add(element)
             }
           }
-          return [...newArr]
+          return [...solution]
         }
     },
 
