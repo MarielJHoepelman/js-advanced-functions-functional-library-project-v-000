@@ -140,7 +140,7 @@ const fi = (function() {
           console.log(element, typeof element)
         if (typeof element[0] === "function") {
 
-          result.push(element[0])
+          result.push(element[1])
         }
       }
       return array
