@@ -117,7 +117,7 @@ const fi = (function() {
         }else{
           for(let element of collection) {
             if(fi.find(collection, iteratee(element))){
-              console.log(element)
+              console.log('her?',element)
             }
           }
         }
