@@ -135,7 +135,7 @@ const fi = (function() {
 
     functions: function(collection) {
       let result = [];
-      console.log(collection)
+      console.log(Object.values(collection))
     },
 
   }
