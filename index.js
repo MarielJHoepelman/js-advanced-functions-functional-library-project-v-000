@@ -107,12 +107,13 @@ const fi = (function() {
     },
 
     uniq: function(collection, bool, iteratee) {
-      let newArr = new Set;
 
         if (!iteratee) {
           return [...new Set(collection)]
         }else{
           let modulos = new Set()
+          let newArr = new Set();
+
           for(let element of collection) {
             let r = iteratee(element)
 
