@@ -90,7 +90,7 @@ const fi = (function() {
       return result.sort((a, b) => callback(a) - callback(b));
     },
 
-    flatten: function(collection, bool) {
+    flatten: function(collection, isSingleLevel) {
       let result = [];
       for (let element of collection){
         if (typeof element === "object") {
