@@ -100,6 +100,8 @@ const fi = (function() {
             result.push(element)
           }
         }
+      }else{
+        result.push(element)
       }
       console.log(result)
       return result
