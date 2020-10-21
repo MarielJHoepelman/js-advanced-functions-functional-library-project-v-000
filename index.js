@@ -103,6 +103,7 @@ const fi = (function() {
             }
           }
         }
+        console.log(result)
         return result
     },
     //
