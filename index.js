@@ -110,7 +110,7 @@ const fi = (function() {
         if (!iteratee) {
           return [...new Set(collection)]
         }else{
-          let modulos = new Set()
+          let modulos = new Set();
           let newArr = new Set();
 
           for(let element of collection) {
