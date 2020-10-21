@@ -5,9 +5,9 @@
     "passes": 28,
     "pending": 0,
     "failures": 1,
-    "start": "2020-10-21T17:05:50.940Z",
-    "end": "2020-10-21T17:05:51.444Z",
-    "duration": 504
+    "start": "2020-10-21T17:06:28.220Z",
+    "end": "2020-10-21T17:06:28.709Z",
+    "duration": 489
   },
   "tests": [
     {
@@ -27,7 +27,7 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js each returns the original collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -153,7 +153,7 @@
     {
       "title": "returns a copy of the **array** with all falsy values removed. In JavaScript, _false_, _null_, _0_, _\"\"_, _undefined_ and _NaN_ are all falsy.",
       "fullTitle": "index.js compact returns a copy of the **array** with all falsy values removed. In JavaScript, _false_, _null_, _0_, _\"\"_, _undefined_ and _NaN_ are all falsy.",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -214,10 +214,7 @@
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'length' of undefined\n    at arraysEqual (test/indexTest.js:295:12)\n    at Context.<anonymous> (test/indexTest.js:246:14)",
-        "message": "Cannot read property 'length' of undefined"
-      }
+      "err": {}
     }
   ],
   "passes": [
@@ -238,7 +235,7 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js each returns the original collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -364,7 +361,7 @@
     {
       "title": "returns a copy of the **array** with all falsy values removed. In JavaScript, _false_, _null_, _0_, _\"\"_, _undefined_ and _NaN_ are all falsy.",
       "fullTitle": "index.js compact returns a copy of the **array** with all falsy values removed. In JavaScript, _false_, _null_, _0_, _\"\"_, _undefined_ and _NaN_ are all falsy.",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
