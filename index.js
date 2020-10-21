@@ -130,7 +130,7 @@ const fi = (function() {
     },
 
     values: function(collection) {
-      return Object.keys(collection)
+      return Object.values(collection)
     },
 
   }
