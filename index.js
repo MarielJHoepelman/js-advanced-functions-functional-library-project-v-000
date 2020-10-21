@@ -112,9 +112,10 @@ const fi = (function() {
         if (!iteratee) {
           return [...new Set(collection)]
         }else{
+          console.log('here')
           for(let element of collection) {
             if(!collection.find(x=> element === x)){
-              console.log(element)
+
               newArr.push(element)
             }
           }
