@@ -107,7 +107,7 @@ const fi = (function() {
     },
 
       function uniq(collection) {
-        let result = [];
+        let result = collection[0];
         for (let element of collection)
       },
     //
