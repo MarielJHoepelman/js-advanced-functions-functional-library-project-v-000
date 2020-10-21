@@ -97,14 +97,10 @@ const fi = (function() {
         if (typeof element !== "object") {
           result.push(element)
         } else {
-          for (let e of element) {
-            result.push(e)
-          }
+
           }
         }
-      }
-      return result
-    },
+      },
     //
     //
     // functions: function() {
