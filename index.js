@@ -115,11 +115,13 @@ const fi = (function() {
         if (!iteratee) {
           return [...new Set(collection)]
         }else{
-          for(let element of collection) {
-            if(fi.find(collection, iteratee)){
-              console.log('her?',element)
-            }
-          }
+          let a = fi.find(collection, iteratee)
+          console.log(a)
+          // for(let element of collection) {
+          //   if(fi.find(collection, iteratee)){
+          //     console.log('her?',element)
+          //   }
+          // }
         }
 
     },
