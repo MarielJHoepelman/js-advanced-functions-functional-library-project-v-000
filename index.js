@@ -88,7 +88,7 @@ const fi = (function() {
     sortBy: function(collection, callback) {
       // let result = this.map(collection, callback)
       //  console.log(collection, result)
-      const result = collection;
+      const result = [...collection];
       return collection.sort((a, b) => callback(a) - callback(b));
     },
 
