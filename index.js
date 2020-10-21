@@ -103,12 +103,12 @@ const fi = (function() {
       // }
       // return result
       for (let element of collection) {
-        if (elemement !typeof "object") {
+        if (!element typeof "object") {
           result.push(element)
         } else {
           console.log(element)
           for (let e of element) {
-            console.log(e)
+
             result.push(e)
           }
         }
