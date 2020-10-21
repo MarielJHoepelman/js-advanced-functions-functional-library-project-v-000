@@ -107,15 +107,7 @@ const fi = (function() {
     },
 
       uniq: function(collection) {
-        let result = [];
-        console.log(result)
-        for (let element of collection) {
-          if (element !== result[result.length - 1]) {
-            result.push(element)
-          }
-        }
-        console.log(result)
-        return result
+        return [...new Set(collection)]
       },
     //
     //
