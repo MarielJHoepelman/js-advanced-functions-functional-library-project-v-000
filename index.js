@@ -90,8 +90,8 @@ const fi = (function() {
       return result.sort((a, b) => callback(a) - callback(b));
     },
 
-    flatten: function (){
-      
+    flatten: function(collection){
+
     },
     //
     //
