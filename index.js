@@ -136,6 +136,11 @@ const fi = (function() {
     functions: function(collection) {
       let array = Object.values(collection):
       ler result = [];
+      for (let element of array) {
+        if (typeof element === "function") {
+          result.push(element.value)
+        }
+      }
     },
 
   }
