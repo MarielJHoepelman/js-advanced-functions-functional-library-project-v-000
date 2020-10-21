@@ -110,7 +110,7 @@ const fi = (function() {
         if (!iteratee) {
           return [...new Set(collection)]
         }
-        console.log(iteratee)
+        console.log("here", iteratee)
         // else {
         //   let result = [];
         //   for (let element of collection) {
