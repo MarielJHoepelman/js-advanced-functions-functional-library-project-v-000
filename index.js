@@ -93,7 +93,7 @@ const fi = (function() {
     flatten: function(collection, isSingleLevel) {
         let result = [];
         if (isSingleLevel) {
-          result.concat(collection)
+          result.concat(...collection)
         } else {
           for (let element of collection){
             if (typeof element === "object") {
