@@ -137,8 +137,8 @@ const fi = (function() {
       let array = Object.entries(collection);
       let result = [];
       for (let element of array) {
-          console.log(element, typeof element)
-        if (typeof element === "function") {
+          console.log(element, typeof element[0])
+        if (typeof element[0] === "function") {
 
           result.push(element)
         }
