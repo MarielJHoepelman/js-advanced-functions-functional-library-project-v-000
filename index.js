@@ -117,7 +117,7 @@ const fi = (function() {
 
     },
 
-
+  }
 })()
 
 fi.libraryMethod()
