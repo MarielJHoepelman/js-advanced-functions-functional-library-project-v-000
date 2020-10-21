@@ -94,7 +94,7 @@ const fi = (function() {
       let result = [];
 
       for (let element of collection){
-        if (!isSingleLevel && typeof element === "object") {
+        if (typeof element === "object") {
           result.push(...this.flatten(element, isSingleLevel))
         } else {
           result.push(element)
