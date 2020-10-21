@@ -117,7 +117,8 @@ const fi = (function() {
         }else{
           for(let element of collection) {
             if(!collection.find(x=> element === x)){
-              console.log(newArr.push(element))
+              console.log(element)
+              newArr.push(element)
             }
           }
         }
