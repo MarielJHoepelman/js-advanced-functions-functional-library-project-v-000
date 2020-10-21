@@ -1,19 +1,19 @@
 {
   "stats": {
     "suites": 11,
-    "tests": 23,
-    "passes": 23,
+    "tests": 24,
+    "passes": 24,
     "pending": 0,
     "failures": 1,
-    "start": "2020-10-21T13:22:36.787Z",
-    "end": "2020-10-21T13:22:37.269Z",
-    "duration": 482
+    "start": "2020-10-21T13:22:55.969Z",
+    "end": "2020-10-21T13:22:56.445Z",
+    "duration": 476
   },
   "tests": [
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js each calls alert with each element passed",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,7 +48,7 @@
     {
       "title": "successfully returns a correctly populated array from modified object values",
       "fullTitle": "index.js map successfully returns a correctly populated array from modified object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,7 +62,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -90,7 +90,7 @@
     {
       "title": "does not traverse the whole array if the value is found early",
       "fullTitle": "index.js find does not traverse the whole array if the value is found early",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -139,7 +139,7 @@
     {
       "title": "returns the last element of the collection",
       "fullTitle": "index.js last returns the last element of the collection",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -167,6 +167,13 @@
     {
       "title": "correctly sorts arrays of integers and arrays of strings",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers and arrays of strings",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original arrays",
+      "fullTitle": "index.js sortBy does not modify the original arrays",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -175,8 +182,8 @@
   "pending": [],
   "failures": [
     {
-      "title": "does not modify the original arrays",
-      "fullTitle": "index.js sortBy does not modify the original arrays",
+      "title": "correctly sorts arrays of integers with non-standard sort",
+      "fullTitle": "index.js sortBy correctly sorts arrays of integers with non-standard sort",
       "duration": 1,
       "currentRetry": 0,
       "err": {
@@ -184,7 +191,7 @@
         "showDiff": true,
         "actual": "false",
         "expected": "true",
-        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/indexTest.js:207:70)"
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/indexTest.js:212:96)"
       }
     }
   ],
@@ -192,7 +199,7 @@
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js each calls alert with each element passed",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -227,7 +234,7 @@
     {
       "title": "successfully returns a correctly populated array from modified object values",
       "fullTitle": "index.js map successfully returns a correctly populated array from modified object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -241,7 +248,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -269,7 +276,7 @@
     {
       "title": "does not traverse the whole array if the value is found early",
       "fullTitle": "index.js find does not traverse the whole array if the value is found early",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -318,7 +325,7 @@
     {
       "title": "returns the last element of the collection",
       "fullTitle": "index.js last returns the last element of the collection",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -346,6 +353,13 @@
     {
       "title": "correctly sorts arrays of integers and arrays of strings",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers and arrays of strings",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original arrays",
+      "fullTitle": "index.js sortBy does not modify the original arrays",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
