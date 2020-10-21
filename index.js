@@ -99,7 +99,6 @@ const fi = (function() {
             result.push(element)
           }
         }
-      }
       return result
     },
     //
