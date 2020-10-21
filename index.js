@@ -103,7 +103,7 @@ const fi = (function() {
       // }
       // return result
       for (let element of collection) {
-        if (!element typeof "object") {
+        if (typeof element !== "object") {
           result.push(element)
         } else {
           console.log(element)
