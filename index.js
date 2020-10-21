@@ -126,7 +126,7 @@ const fi = (function() {
     },
 
     keys: function(collection) {
-
+      console.log(collection)
     },
 
   }
