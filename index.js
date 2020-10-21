@@ -91,15 +91,19 @@ const fi = (function() {
     },
 
     flatten: function(collection, isSingleLevel) {
-      let result = [];
-        for (let element of collection){
-          if (typeof element === "object") {
-            result.push(...this.flatten(element, false))
-          } else {
-            result.push(element)
+        let result = [];
+        if (isSingleLevel) {
+          result.concat(collection)
+        } else {
+          for (let element of collection){
+            if (typeof element === "object") {
+              result.push(...this.flatten(element, false))
+            } else {
+              result.push(element)
+            }
           }
         }
-      return result
+        return result
     },
     //
     //
