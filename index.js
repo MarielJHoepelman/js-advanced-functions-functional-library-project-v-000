@@ -115,7 +115,7 @@ const fi = (function() {
           let newArr = new Set();
 
           for(let element of collection) {
-            let r = iteratee(element)
+            let result = iteratee(element)
 
             if(!newArr.has(r)){
               modulos.add(r)
