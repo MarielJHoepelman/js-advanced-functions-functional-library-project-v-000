@@ -107,7 +107,7 @@ const fi = (function() {
     },
 
       uniq: function(collection) {
-        return [...new Set(collection)]
+        return [...new Set(Object.values(collection))]
       },
     //
     //
