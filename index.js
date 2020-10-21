@@ -107,10 +107,11 @@ const fi = (function() {
     },
 
       uniq: function(collection, iteratee) {
+          console.log("here", iteratee)
         if (!iteratee) {
           return [...new Set(collection)]
         }
-        console.log("here", iteratee)
+
         // else {
         //   let result = [];
         //   for (let element of collection) {
