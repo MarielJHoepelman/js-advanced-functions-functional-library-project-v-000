@@ -109,20 +109,18 @@ const fi = (function() {
     uniq: function(collection, bool, iteratee) {
       let newArr = []
 
-        // if (!iteratee) {
-        //   return [...new Set(collection)]
-        // }else{
-          console.log('here')
+        if (!iteratee) {
+          return [...new Set(collection)]
+        }else{
           for(let element of collection) {
-            if(!newArr.find(x=> element === x)){
-              console.log('here again')
+            let r = interatee(element)
+            if(!newArr.find(x=> element === x) && collection.find(y=> element === r )  ){
               newArr.push(element)
             }
           }
-
           console.log(newArr)
-        // }
-        return newArr
+        }
+
     },
 
   }
