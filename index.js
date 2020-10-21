@@ -118,7 +118,7 @@ const fi = (function() {
         else {
           let result = [];
           for (let element of collection) {
-            iteratee(element)
+            console.log(iteratee(element))
           }
 
       },
