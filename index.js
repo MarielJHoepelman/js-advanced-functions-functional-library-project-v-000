@@ -106,8 +106,8 @@ const fi = (function() {
         return result
     },
 
-      uniq: function(collection) {
-        console.log(collection)
+      uniq: function(collection, iteratee) {
+        console.log(collection, iteratee)
         return [...new Set(collection)]
       },
     //
