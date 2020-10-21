@@ -118,6 +118,7 @@ const fi = (function() {
         else {
           let result = [];
           for (let element of collection) {
+            console.log("insideloop")
             console.log(iteratee(element))
           }
 
