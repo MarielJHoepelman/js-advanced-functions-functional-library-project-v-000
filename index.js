@@ -107,7 +107,7 @@ const fi = (function() {
     },
 
     uniq: function(collection, bool, iteratee) {
-      let newArr = []
+      let newArr = new Set;
 
         if (!iteratee) {
           return [...new Set(collection)]
