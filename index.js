@@ -100,8 +100,8 @@ const fi = (function() {
           for (let e of element) {
             result.push(e)
           }
-          }
         }
+      }
     },
     //
     //
