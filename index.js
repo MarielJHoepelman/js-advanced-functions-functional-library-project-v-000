@@ -134,7 +134,10 @@ const fi = (function() {
     },
 
     functions: function(collection) {
-      console.log(fi.keys(collection))
+      let result = [];
+      for (const element of collection) {
+        console.log(element.key)
+      }
     },
 
   }
