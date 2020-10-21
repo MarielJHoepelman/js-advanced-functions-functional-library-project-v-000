@@ -118,7 +118,7 @@ const fi = (function() {
 
             if(!newArr.has(r)){
               modulos.add(r)
-              newArr.push(element)
+              newArr.add(element)
             }
           }
           console.log(newArr)
