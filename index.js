@@ -137,13 +137,11 @@ const fi = (function() {
       let array = Object.entries(collection);
       let result = [];
       for (let element of array) {
-          console.log(element, typeof element[1])
         if (typeof element[1] === "function") {
 
           result.push(element[0])
         }
       }
-      console.log(result)
       return result.sort()
     },
 
