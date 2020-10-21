@@ -110,15 +110,16 @@ const fi = (function() {
           console.log("here", iteratee)
           console.log("here2", collection)
           console.log("what is this bool for", bool)
+
         if (!iteratee) {
           return [...new Set(collection)]
         }
 
-        // else {
-        //   let result = [];
-        //   for (let element of collection) {
-        //
-        //   }
+        else {
+          let result = [];
+          for (let element of collection) {
+            iteratee(element)
+          }
 
       },
     //
