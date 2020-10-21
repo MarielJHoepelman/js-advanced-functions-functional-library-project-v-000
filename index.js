@@ -117,7 +117,7 @@ const fi = (function() {
             let r = iteratee(element)
             console.log(element,r)
             if(!modulos.find(x=> element === x)){
-              modulos.add(element)
+              modulos.add(r)
               newArr.push(element)
             }
           }
