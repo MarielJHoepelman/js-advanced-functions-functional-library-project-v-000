@@ -1,19 +1,19 @@
 {
   "stats": {
     "suites": 16,
-    "tests": 33,
-    "passes": 33,
+    "tests": 34,
+    "passes": 34,
     "pending": 0,
-    "failures": 1,
-    "start": "2020-10-21T19:10:44.855Z",
-    "end": "2020-10-21T19:10:45.362Z",
-    "duration": 507
+    "failures": 0,
+    "start": "2020-10-21T19:11:03.377Z",
+    "end": "2020-10-21T19:11:03.853Z",
+    "duration": 476
   },
   "tests": [
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js each calls alert with each element passed",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,7 +34,7 @@
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js map successfully returns a correctly populated array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -125,7 +125,7 @@
     {
       "title": "returns the first element of the collection",
       "fullTitle": "index.js first returns the first element of the collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -188,7 +188,7 @@
     {
       "title": "correctly flattens a ludicrously nested array",
       "fullTitle": "index.js flatten correctly flattens a ludicrously nested array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -202,14 +202,14 @@
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes duplicate values from an array when an iteratee is applied",
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -240,10 +240,7 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {}
-    }
-  ],
-  "pending": [],
-  "failures": [
+    },
     {
       "title": "returns a sorted collection of the names of every method in an object",
       "fullTitle": "index.js functions returns a sorted collection of the names of every method in an object",
@@ -252,11 +249,13 @@
       "err": {}
     }
   ],
+  "pending": [],
+  "failures": [],
   "passes": [
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js each calls alert with each element passed",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -277,7 +276,7 @@
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js map successfully returns a correctly populated array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -368,7 +367,7 @@
     {
       "title": "returns the first element of the collection",
       "fullTitle": "index.js first returns the first element of the collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -431,7 +430,7 @@
     {
       "title": "correctly flattens a ludicrously nested array",
       "fullTitle": "index.js flatten correctly flattens a ludicrously nested array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -445,14 +444,14 @@
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes duplicate values from an array when an iteratee is applied",
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -481,6 +480,13 @@
       "title": "does not modify the original object you crazy DOGE!",
       "fullTitle": "index.js values does not modify the original object you crazy DOGE!",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a sorted collection of the names of every method in an object",
+      "fullTitle": "index.js functions returns a sorted collection of the names of every method in an object",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
