@@ -94,7 +94,7 @@ const fi = (function() {
       let result = [];
       for (let element of collection){
         if (typeof element === "object") {
-          console.log(result.push(...this.flatten(element)))
+          result.push(...this.flatten(element))
         } else {
           result.push(element)
         }
