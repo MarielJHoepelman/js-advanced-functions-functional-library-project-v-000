@@ -134,7 +134,7 @@ const fi = (function() {
               solution.push(element)
             }
           }
-          return [...solution]
+          return [...new Set(solution)]
 
         }
     },
