@@ -144,7 +144,7 @@ const fi = (function() {
         }
       }
       console.log(result)
-      return fi.sort(result)
+      return result.sort()
     },
 
   }
