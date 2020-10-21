@@ -91,38 +91,38 @@ const fi = (function() {
     },
 
     flatten: function(collection, isSingleLevel) {
-        let result = [];
-        if (!!isSingleLevel) {
-          result = result.concat(...collection)
-        } else {
-          for (let element of collection){
-            if (typeof element === "object") {
-              result.push(...this.flatten(element, false))
-            } else {
-              result.push(element)
-            }
+      let result = [];
+      if (!!isSingleLevel) {
+        result = result.concat(...collection)
+      } else {
+        for (let element of collection){
+          if (typeof element === "object") {
+            result.push(...this.flatten(element, false))
+          } else {
+            result.push(element)
           }
         }
-        return result
+      }
+      return result
     },
 
     uniq: function(collection, bool, iteratee) {
-        if (!iteratee) {
-          return [...new Set(collection)]
-        }else{
-          let modulos = []
-          let solution = [];
+      if (!iteratee) {
+        return [...new Set(collection)]
+      }else{
+        let modulos = []
+        let solution = [];
 
-          for(let element of collection) {
-            let result = iteratee(element)
+        for(let element of collection) {
+          let result = iteratee(element)
 
-            if(!modulos.some(x => x === result)){
-              modulos.push(result)
-              solution.push(element)
-            }
+          if(!modulos.some(x => x === result)){
+            modulos.push(result)
+            solution.push(element)
           }
-          return solution;
         }
+        return solution;
+      }
     },
 
   }
