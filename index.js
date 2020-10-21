@@ -133,6 +133,10 @@ const fi = (function() {
       return Object.values(collection)
     },
 
+    functions: function() {
+
+    },
+
   }
 })()
 
