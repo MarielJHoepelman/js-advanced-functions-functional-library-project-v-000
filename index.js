@@ -116,7 +116,7 @@ const fi = (function() {
           for(let element of collection) {
             let result = iteratee(element)
 
-            if(modulos.find(x => x === result)){
+            if(modulos.some(x => x === result)){
               modulos.push(result)
               solution.push(element)
             }
