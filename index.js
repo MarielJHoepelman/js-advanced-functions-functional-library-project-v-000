@@ -115,7 +115,7 @@ const fi = (function() {
           for(let element of collection) {
             let r = iteratee(element)
             console.log(element,r)
-            if(!newArr.find(x=> element === x) && collection.find(y=> element === r )  ){
+            if(!newArr.find(x=> element === x) && collection.find(y=> y === r )  ){
               newArr.push(element)
             }
           }
