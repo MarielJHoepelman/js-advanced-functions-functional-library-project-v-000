@@ -107,14 +107,17 @@ const fi = (function() {
     },
 
     uniq: function(collection, bool, iteratee) {
+          console.log("here", iteratee)
+          console.log("here2", collection)
+          console.log("what is this bool for", bool)
         let newArr = []
 
         if (!iteratee) {
           return [...new Set(collection)]
         }else{
           for(let element of collection) {
-            if(fi.find(newArr, iteratee(element))){
-              console.log('her?',iteratee(element))
+            if(!collection.find(x=> element === x)){
+              console.log(newArr.push(element))
             }
           }
         }
