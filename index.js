@@ -134,7 +134,7 @@ const fi = (function() {
     },
 
     functions: function(collection) {
-      let array = Object.values(collection);
+      let array = Object.entries(collection);
       let result = [];
       for (let element of array) {
           console.log(element, typeof element)
