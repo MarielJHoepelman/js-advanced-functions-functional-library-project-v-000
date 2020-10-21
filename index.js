@@ -134,8 +134,8 @@ const fi = (function() {
     },
 
     functions: function(collection) {
-      let result = [];
-      console.log(Object.values(collection))
+      let array = Object.values(collection):
+      ler result = [];
     },
 
   }
