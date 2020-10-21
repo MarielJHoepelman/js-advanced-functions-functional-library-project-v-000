@@ -141,6 +141,7 @@ const fi = (function() {
           result.push(element.value)
         }
       }
+      console.log(array)
       return array
     },
 
