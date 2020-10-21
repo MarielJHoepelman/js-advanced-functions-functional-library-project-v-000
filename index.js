@@ -97,6 +97,8 @@ const fi = (function() {
         if (typeof element === "object") {
           if (isSingleLevel) {
             result.push(...this.flatten(element, false))
+          } else {
+            result.push(...this.flatten(element, true))
           }
         } else {
           result.push(element)
