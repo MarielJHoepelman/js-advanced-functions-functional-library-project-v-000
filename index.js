@@ -130,6 +130,7 @@ const fi = (function() {
             let result = iteratee(element)
 
             if(!modulos.find(x => x === result) ){
+              console.log(modulos, element)
               modulos.push(result)
               solution.push(element)
             }
