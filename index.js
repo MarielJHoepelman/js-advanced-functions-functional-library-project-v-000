@@ -137,10 +137,10 @@ const fi = (function() {
       let array = Object.entries(collection);
       let result = [];
       for (let element of array) {
-          console.log(element, typeof element[0])
-        if (typeof element[0] === "function") {
+          console.log(element, typeof element[1])
+        if (typeof element[1] === "function") {
 
-          result.push(element)
+          result.push(element[0])
         }
       }
       return array
