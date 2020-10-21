@@ -135,9 +135,7 @@ const fi = (function() {
 
     functions: function(collection) {
       let result = [];
-      for (const element of collection) {
-        console.log(element)
-      }
+      console.log(collection)
     },
 
   }
