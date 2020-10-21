@@ -113,6 +113,10 @@ const fi = (function() {
 
         if (!iteratee) {
           return [...new Set(collection)]
+        }else{
+          for(let element in collection) {
+            console.log(iteratee(element))
+          }
         }
 
     },
