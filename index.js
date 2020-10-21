@@ -91,7 +91,7 @@ const fi = (function() {
     },
 
     flatten: function(collection) {
-
+      console.log(collection)
     },
     //
     //
