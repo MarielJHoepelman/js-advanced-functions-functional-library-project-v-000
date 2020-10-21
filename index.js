@@ -96,7 +96,7 @@ const fi = (function() {
         if (typeof element !== "object") {
           result.push(element)
         } else {
-          
+          this.flatten(element)
         }
       }
     },
