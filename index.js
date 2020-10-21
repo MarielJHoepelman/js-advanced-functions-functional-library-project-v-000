@@ -119,6 +119,8 @@ const fi = (function() {
               newArr.push(element)
             }
           }
+
+          cosole.log(newArr)
         }
 
     },
