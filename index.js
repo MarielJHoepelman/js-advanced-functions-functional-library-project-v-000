@@ -122,7 +122,7 @@ const fi = (function() {
             console.log(iteratee(element))
           }
 
-      },
+      }
     //
     //
     // functions: function() {
