@@ -129,6 +129,10 @@ const fi = (function() {
       return Object.keys(collection)
     },
 
+    values: function(collection) {
+      return Object.keys(collection)
+    },
+
   }
 })()
 
