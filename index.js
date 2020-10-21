@@ -110,12 +110,15 @@ const fi = (function() {
           console.log("here", iteratee)
           console.log("here2", collection)
           console.log("what is this bool for", bool)
+        let newArr = []
 
         if (!iteratee) {
           return [...new Set(collection)]
         }else{
           for(let element of collection) {
-            console.log(element, iteratee(element))
+            if(fi.find(newArr, iteratee(element))){
+              console.log(element)
+            }
           }
         }
 
