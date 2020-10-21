@@ -5,9 +5,9 @@
     "passes": 28,
     "pending": 0,
     "failures": 1,
-    "start": "2020-10-21T18:37:08.604Z",
-    "end": "2020-10-21T18:37:09.125Z",
-    "duration": 521
+    "start": "2020-10-21T18:38:00.162Z",
+    "end": "2020-10-21T18:38:00.645Z",
+    "duration": 483
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js each calls alert properly on object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,14 +62,14 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when passed an initial value",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the correct reduced value when not passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when not passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -83,7 +83,7 @@
     {
       "title": "returns the value if found",
       "fullTitle": "index.js find returns the value if found",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -104,7 +104,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js filter correctly filters for values that the callback evaluates as true",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -167,14 +167,14 @@
     {
       "title": "correctly sorts arrays of integers and arrays of strings",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers and arrays of strings",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original arrays",
       "fullTitle": "index.js sortBy does not modify the original arrays",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -202,7 +202,7 @@
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
@@ -212,7 +212,7 @@
     {
       "title": "removes duplicate values from an array when an iteratee is applied",
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected false to equal true",
@@ -234,7 +234,7 @@
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js each calls alert properly on object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -276,14 +276,14 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when passed an initial value",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the correct reduced value when not passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when not passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -297,7 +297,7 @@
     {
       "title": "returns the value if found",
       "fullTitle": "index.js find returns the value if found",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -318,7 +318,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js filter correctly filters for values that the callback evaluates as true",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -381,14 +381,14 @@
     {
       "title": "correctly sorts arrays of integers and arrays of strings",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers and arrays of strings",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original arrays",
       "fullTitle": "index.js sortBy does not modify the original arrays",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -416,7 +416,7 @@
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
