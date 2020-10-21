@@ -5,15 +5,15 @@
     "passes": 28,
     "pending": 0,
     "failures": 1,
-    "start": "2020-10-21T17:04:25.113Z",
-    "end": "2020-10-21T17:04:25.652Z",
-    "duration": 539
+    "start": "2020-10-21T17:04:43.185Z",
+    "end": "2020-10-21T17:04:43.711Z",
+    "duration": 526
   },
   "tests": [
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js each calls alert with each element passed",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,7 +34,7 @@
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js map successfully returns a correctly populated array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -97,7 +97,7 @@
     {
       "title": "returns undefined if the value is not present",
       "fullTitle": "index.js find returns undefined if the value is not present",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -111,7 +111,7 @@
     {
       "title": "correctly returns the size of the collection when an array is passed",
       "fullTitle": "index.js size correctly returns the size of the collection when an array is passed",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -167,7 +167,7 @@
     {
       "title": "correctly sorts arrays of integers and arrays of strings",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers and arrays of strings",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -195,14 +195,14 @@
     {
       "title": "correctly flattens a single level when a second argument of \"true\" is passed",
       "fullTitle": "index.js flatten correctly flattens a single level when a second argument of \"true\" is passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
@@ -212,7 +212,7 @@
     {
       "title": "removes duplicate values from an array when an iteratee is applied",
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: Cannot read property 'length' of undefined\n    at arraysEqual (test/indexTest.js:295:12)\n    at Context.<anonymous> (test/indexTest.js:246:14)",
@@ -224,7 +224,7 @@
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js each calls alert with each element passed",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -245,7 +245,7 @@
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js map successfully returns a correctly populated array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -308,7 +308,7 @@
     {
       "title": "returns undefined if the value is not present",
       "fullTitle": "index.js find returns undefined if the value is not present",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -322,7 +322,7 @@
     {
       "title": "correctly returns the size of the collection when an array is passed",
       "fullTitle": "index.js size correctly returns the size of the collection when an array is passed",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -378,7 +378,7 @@
     {
       "title": "correctly sorts arrays of integers and arrays of strings",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers and arrays of strings",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -406,14 +406,14 @@
     {
       "title": "correctly flattens a single level when a second argument of \"true\" is passed",
       "fullTitle": "index.js flatten correctly flattens a single level when a second argument of \"true\" is passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
