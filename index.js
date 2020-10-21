@@ -108,6 +108,7 @@ const fi = (function() {
 
       uniq: function(collection, iteratee) {
           console.log("here", iteratee)
+          console.log("here2", collection)
         if (!iteratee) {
           return [...new Set(collection)]
         }
