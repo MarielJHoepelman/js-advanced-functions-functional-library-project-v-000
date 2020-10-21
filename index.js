@@ -92,16 +92,25 @@ const fi = (function() {
 
     flatten: function(collection, isSingleLevel) {
       let result = [];
-      if(isSingleLevel) {
-        for (let element of collection){
-          if (typeof element === "object") {
-            result.push(...this.flatten(element, false))
-          } else {
-            result.push(element)
+      // if(isSingleLevel) {
+      //   for (let element of collection){
+      //     if (typeof element === "object") {
+      //       result.push(...this.flatten(element, false))
+      //     } else {
+      //       result.push(element)
+      //     }
+      //   }
+      // }
+      // return result
+      for (let element of collection) {
+        if (elemement !typeof "object") {
+          result.push(element)
+        } else {
+          for (let e of element) {
+            result.push(e)
           }
         }
       }
-      return result
     },
     //
     //
