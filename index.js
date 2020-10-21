@@ -114,7 +114,7 @@ const fi = (function() {
         if (!iteratee) {
           return [...new Set(collection)]
         }else{
-          for(let element in collection) {
+          for(let element of collection) {
             console.log(element, iteratee(element))
           }
         }
