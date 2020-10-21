@@ -112,10 +112,12 @@ const fi = (function() {
         if (!iteratee) {
           return [...new Set(collection)]
         }else{
+          let modulos = new Set()
           for(let element of collection) {
             let r = iteratee(element)
             console.log(element,r)
-            if(!newArr.find(x=> element === x) && collection.find(y=> y === r )  ){
+            if(!modulos.find(x=> element === x)){
+              modulos.add(element)
               newArr.push(element)
             }
           }
