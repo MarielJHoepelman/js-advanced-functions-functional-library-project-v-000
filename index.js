@@ -111,7 +111,7 @@ const fi = (function() {
           return [...new Set(collection)]
         }else{
           let modulos = new Set();
-          let newArr = new Set();
+          let solution = new Set();
 
           for(let element of collection) {
             let result = iteratee(element)
