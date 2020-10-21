@@ -134,7 +134,7 @@ const fi = (function() {
     },
 
     functions: function(collection) {
-      console.log(collection)
+      fi.keys(collection)
     },
 
   }
