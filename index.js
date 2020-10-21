@@ -138,9 +138,9 @@ const fi = (function() {
       let result = [];
       for (let element of array) {
           console.log(element, typeof element)
-        if (typeof element === "function") {
+        if (typeof element[1] === "function") {
 
-          result.push(element)
+          result.push(element[0])
         }
       }
       return array
