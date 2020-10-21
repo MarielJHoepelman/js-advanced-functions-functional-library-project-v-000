@@ -89,7 +89,7 @@ const fi = (function() {
       // let result = this.map(collection, callback)
       //  console.log(collection, result)
       const result = [...collection];
-      return collection.sort((a, b) => callback(a) - callback(b));
+      return result.sort((a, b) => callback(a) - callback(b));
     },
 
     functions: function() {
