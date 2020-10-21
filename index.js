@@ -108,6 +108,7 @@ const fi = (function() {
 
       function uniq(collection) {
         let result = [];
+        console.log(result)
         for (let element of collection) {
           if (element !== result[result.length - 1]) {
             result.push(element)
