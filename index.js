@@ -106,7 +106,7 @@ const fi = (function() {
         return result
     },
 
-      uniq: function(collection, bool, iteratee) {
+    uniq: function(collection, bool, iteratee) {
           console.log("here", iteratee)
           console.log("here2", collection)
           console.log("what is this bool for", bool)
@@ -115,22 +115,9 @@ const fi = (function() {
           return [...new Set(collection)]
         }
 
-        else {
-          let result = [];
-          for (let element of collection) {
-            console.log("insideloop")
-            console.log(iteratee(element))
-          }
-
-      },
-    //
-    //
-    // functions: function() {
-    //
-    // },
+    },
 
 
-  }
 })()
 
 fi.libraryMethod()
