@@ -122,7 +122,7 @@ const fi = (function() {
               newArr.add(element)
             }
           }
-          console.log(newArr)
+          return [...newArr]
         }
 
     },
