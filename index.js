@@ -93,9 +93,10 @@ const fi = (function() {
     flatten: function(collection) {
       let result = [];
       for (let element of collection){
-        console.log(element)
         if (typeof element !== "object") {
-
+          result.push(element)
+        } else {
+          
         }
       }
     },
