@@ -5,15 +5,15 @@
     "passes": 29,
     "pending": 0,
     "failures": 1,
-    "start": "2020-10-21T18:32:58.345Z",
-    "end": "2020-10-21T18:32:58.851Z",
-    "duration": 506
+    "start": "2020-10-21T18:35:40.818Z",
+    "end": "2020-10-21T18:35:41.308Z",
+    "duration": 490
   },
   "tests": [
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js each calls alert with each element passed",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -27,14 +27,14 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js each returns the original collection",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js map successfully returns a correctly populated array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -104,7 +104,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js filter correctly filters for values that the callback evaluates as true",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -139,7 +139,7 @@
     {
       "title": "returns the last element of the collection",
       "fullTitle": "index.js last returns the last element of the collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -160,21 +160,21 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js compact does not modify the original array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "correctly sorts arrays of integers and arrays of strings",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers and arrays of strings",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original arrays",
       "fullTitle": "index.js sortBy does not modify the original arrays",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -202,14 +202,14 @@
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes duplicate values from an array when an iteratee is applied",
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
@@ -231,7 +231,7 @@
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js each calls alert with each element passed",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -245,14 +245,14 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js each returns the original collection",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js map successfully returns a correctly populated array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -322,7 +322,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js filter correctly filters for values that the callback evaluates as true",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -357,7 +357,7 @@
     {
       "title": "returns the last element of the collection",
       "fullTitle": "index.js last returns the last element of the collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -378,21 +378,21 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js compact does not modify the original array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "correctly sorts arrays of integers and arrays of strings",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers and arrays of strings",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original arrays",
       "fullTitle": "index.js sortBy does not modify the original arrays",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -420,14 +420,14 @@
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes duplicate values from an array when an iteratee is applied",
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
