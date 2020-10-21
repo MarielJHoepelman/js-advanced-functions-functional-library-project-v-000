@@ -5,9 +5,9 @@
     "passes": 28,
     "pending": 0,
     "failures": 1,
-    "start": "2020-10-21T17:16:02.735Z",
-    "end": "2020-10-21T17:16:03.221Z",
-    "duration": 486
+    "start": "2020-10-21T17:16:13.951Z",
+    "end": "2020-10-21T17:16:14.438Z",
+    "duration": 487
   },
   "tests": [
     {
@@ -27,7 +27,7 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js each returns the original collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,7 +62,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -104,7 +104,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js filter correctly filters for values that the callback evaluates as true",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -167,7 +167,7 @@
     {
       "title": "correctly sorts arrays of integers and arrays of strings",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers and arrays of strings",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -188,21 +188,21 @@
     {
       "title": "correctly flattens a ludicrously nested array",
       "fullTitle": "index.js flatten correctly flattens a ludicrously nested array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "correctly flattens a single level when a second argument of \"true\" is passed",
       "fullTitle": "index.js flatten correctly flattens a single level when a second argument of \"true\" is passed",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -235,7 +235,7 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js each returns the original collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -270,7 +270,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -312,7 +312,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js filter correctly filters for values that the callback evaluates as true",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -375,7 +375,7 @@
     {
       "title": "correctly sorts arrays of integers and arrays of strings",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers and arrays of strings",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -396,21 +396,21 @@
     {
       "title": "correctly flattens a ludicrously nested array",
       "fullTitle": "index.js flatten correctly flattens a ludicrously nested array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "correctly flattens a single level when a second argument of \"true\" is passed",
       "fullTitle": "index.js flatten correctly flattens a single level when a second argument of \"true\" is passed",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
