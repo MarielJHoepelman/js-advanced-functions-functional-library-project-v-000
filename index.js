@@ -110,35 +110,18 @@ const fi = (function() {
         if (!iteratee) {
           return [...new Set(collection)]
         }else{
-          // let modulos = new Set();
-          // let solution = new Set();
-          //
-          // for(let element of collection) {
-          //   let result = iteratee(element)
-          //
-          //   if(!modulos.has(result)){
-          //     modulos.add(result)
-          //     solution.add(element)
-          //   }
-          // }
-          // return [...solution]
-
           let modulos = []
           let solution = [];
 
           for(let element of collection) {
             let result = iteratee(element)
-            console.log(modulos.find(x => x === result))
+
             if(modulos.find(x => x === result)){
               modulos.push(result)
               solution.push(element)
             }
-
-            // console.log(modulos, solution)
-
           }
           return solution;
-
         }
     },
 
