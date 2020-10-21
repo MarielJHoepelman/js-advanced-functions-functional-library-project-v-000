@@ -91,7 +91,9 @@ const fi = (function() {
     },
 
     flatten: function(collection) {
-      console.log(collection)
+      for (let element of collection){
+        console.log(element)
+      }
     },
     //
     //
