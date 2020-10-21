@@ -93,12 +93,13 @@ const fi = (function() {
     flatten: function(collection) {
       let result = [];
       for (let element of collection){
-        if (typeof element !== "object") {
-          result.push(element)
+        if (typeof element === "object") {
+          result.push(...this.flatten(element))
         } else {
-          this.flatten(element)
+          result.push(element)
         }
       }
+      return result
     },
     //
     //
