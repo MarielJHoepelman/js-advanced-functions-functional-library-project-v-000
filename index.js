@@ -90,9 +90,11 @@ const fi = (function() {
       return result.sort((a, b) => callback(a) - callback(b));
     },
 
-    functions: function() {
-
-    },
+    // 
+    //
+    // functions: function() {
+    //
+    // },
 
 
   }
