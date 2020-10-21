@@ -109,9 +109,12 @@ const fi = (function() {
       uniq: function(collection, iteratee) {
         if (!iteratee) {
           return [...new Set(collection)]
-        } else {
-          let result = [];
-          for (let element of collection)
+        }
+        // else {
+        //   let result = [];
+        //   for (let element of collection) {
+        //
+        //   }
 
         }
       },
