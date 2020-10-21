@@ -116,7 +116,7 @@ const fi = (function() {
           return [...new Set(collection)]
         }else{
           for(let element of collection) {
-            if(fi.find(collection, iteratee)){
+            if(fi.find(collection, iteratee(element))){
               console.log('her?',iteratee(element))
             }
           }
