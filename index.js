@@ -98,6 +98,7 @@ const fi = (function() {
           console.log(typeof element, element !== "object")
           result.push(element)
         } else {
+          console.log(typeof element, element !== "object")
           for (let e of element) {
             result.push(e)
           }
