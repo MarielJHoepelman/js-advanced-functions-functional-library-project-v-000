@@ -141,7 +141,7 @@ const fi = (function() {
           result.push(element.value)
         }
       }
-      console.log(array)
+      console.log(array[1])
       return array
     },
 
