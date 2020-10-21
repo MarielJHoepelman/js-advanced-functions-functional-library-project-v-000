@@ -109,7 +109,7 @@ const fi = (function() {
       uniq: function(collection, bool, iteratee) {
           console.log("here", iteratee)
           console.log("here2", collection)
-          console.log(bool)
+          console.log("what is this bool for", bool)
         if (!iteratee) {
           return [...new Set(collection)]
         }
