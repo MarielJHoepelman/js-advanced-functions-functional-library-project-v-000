@@ -134,7 +134,7 @@ const fi = (function() {
               solution.push(element)
             }
 
-            console.log(modulos, solution)
+            // console.log(modulos, solution)
 
           }
           return solution;
