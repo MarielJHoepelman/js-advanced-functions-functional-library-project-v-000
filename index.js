@@ -114,6 +114,7 @@ const fi = (function() {
             result.push(element)
           }
         }
+        console.log(result)
         return result
       },
     //
