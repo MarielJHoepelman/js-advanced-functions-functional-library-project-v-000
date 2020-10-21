@@ -118,7 +118,7 @@ const fi = (function() {
             let result = iteratee(element)
 
             if(!modulos.has(result)){
-              modulos.add(r)
+              modulos.add(result)
               newArr.add(element)
             }
           }
