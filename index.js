@@ -108,7 +108,6 @@ const fi = (function() {
         } else {
           console.log(element)
           for (let e of element) {
-
             result.push(e)
           }
         }
