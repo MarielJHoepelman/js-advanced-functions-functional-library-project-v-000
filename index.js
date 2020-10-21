@@ -111,6 +111,7 @@ const fi = (function() {
           }
         }
       }
+      return result 
     },
     //
     //
