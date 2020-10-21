@@ -98,9 +98,10 @@ const fi = (function() {
 
           result.push(...this.flatten(element, false))
         } else {
-          console.log(element)
           result.push(element)
         }
+        console.log(result)
+
       }
       console.log(result)
       return result
