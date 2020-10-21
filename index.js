@@ -125,7 +125,7 @@ const fi = (function() {
       }
     },
 
-    keys: function() {
+    keys: function(collection) {
 
     },
 
