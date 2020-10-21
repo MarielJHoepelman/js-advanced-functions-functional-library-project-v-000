@@ -90,15 +90,12 @@ const fi = (function() {
       return result.sort((a, b) => callback(a) - callback(b));
     },
 
-    flatten: function(collection, isSingleLevel = false) {
+    flatten: function(collection, isSingleLevel) {
       let result = [];
 
       for (let element of collection){
         if (typeof element === "object") {
-          if (isSingleLevel) {
-            result.push(...this.flatten(element, false))
-          } else {
-            result.push(...this.flatten(element, true))
+            result.push(...this.flatten(element))
           }
         } else {
           result.push(element)
