@@ -128,12 +128,15 @@ const fi = (function() {
 
           for(let element of collection) {
             let result = iteratee(element)
+            console.log(element, result)
 
             if(!modulos.find(x => x === result) ){
-              console.log(modulos, result,element)
               modulos.push(result)
               solution.push(element)
             }
+
+            console.log(modulos, solution)
+
           }
           return solution;
 
