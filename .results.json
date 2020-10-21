@@ -5,22 +5,22 @@
     "passes": 25,
     "pending": 0,
     "failures": 1,
-    "start": "2020-10-21T15:37:39.204Z",
-    "end": "2020-10-21T15:37:39.792Z",
-    "duration": 588
+    "start": "2020-10-21T15:37:47.379Z",
+    "end": "2020-10-21T15:37:47.865Z",
+    "duration": 486
   },
   "tests": [
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js each calls alert with each element passed",
-      "duration": 4,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js each calls alert properly on object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -69,7 +69,7 @@
     {
       "title": "returns the correct reduced value when not passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when not passed an initial value",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -104,7 +104,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js filter correctly filters for values that the callback evaluates as true",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -118,7 +118,7 @@
     {
       "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
       "fullTitle": "index.js size correctly returns the size of the collection (amount of keys) when an object is passed",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -153,14 +153,14 @@
     {
       "title": "returns a copy of the **array** with all falsy values removed. In JavaScript, _false_, _null_, _0_, _\"\"_, _undefined_ and _NaN_ are all falsy.",
       "fullTitle": "index.js compact returns a copy of the **array** with all falsy values removed. In JavaScript, _false_, _null_, _0_, _\"\"_, _undefined_ and _NaN_ are all falsy.",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js compact does not modify the original array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -206,14 +206,14 @@
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js each calls alert with each element passed",
-      "duration": 4,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js each calls alert properly on object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -262,7 +262,7 @@
     {
       "title": "returns the correct reduced value when not passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when not passed an initial value",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -297,7 +297,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js filter correctly filters for values that the callback evaluates as true",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -311,7 +311,7 @@
     {
       "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
       "fullTitle": "index.js size correctly returns the size of the collection (amount of keys) when an object is passed",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -346,14 +346,14 @@
     {
       "title": "returns a copy of the **array** with all falsy values removed. In JavaScript, _false_, _null_, _0_, _\"\"_, _undefined_ and _NaN_ are all falsy.",
       "fullTitle": "index.js compact returns a copy of the **array** with all falsy values removed. In JavaScript, _false_, _null_, _0_, _\"\"_, _undefined_ and _NaN_ are all falsy.",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js compact does not modify the original array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
