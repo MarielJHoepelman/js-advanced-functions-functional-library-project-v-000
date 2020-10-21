@@ -114,8 +114,9 @@ const fi = (function() {
         }else{
           console.log('here')
           for(let element of collection) {
+            console.log(element)
             if(!collection.find(x=> element === x)){
-
+              console.log('here again')
               newArr.push(element)
             }
           }
