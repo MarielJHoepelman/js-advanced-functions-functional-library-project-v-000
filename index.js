@@ -115,8 +115,8 @@ const fi = (function() {
           let modulos = new Set()
           for(let element of collection) {
             let r = iteratee(element)
-            console.log(element,r)
-            if(!modulos.find(x=> element === x)){
+
+            if(!modulos.has(r)){
               modulos.add(r)
               newArr.push(element)
             }
