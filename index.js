@@ -106,7 +106,7 @@ const fi = (function() {
         return result
     },
 
-      uniq: function(collection, iteratee) {
+      uniq: function(collection, bool, iteratee) {
           console.log("here", iteratee)
           console.log("here2", collection)
         if (!iteratee) {
