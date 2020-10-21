@@ -124,7 +124,6 @@ const fi = (function() {
           }
           return [...newArr]
         }
-
     },
 
   }
