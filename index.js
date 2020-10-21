@@ -106,12 +106,13 @@ const fi = (function() {
         if (elemement !typeof "object") {
           result.push(element)
         } else {
+          console.log(element)
           for (let e of element) {
             result.push(e)
           }
         }
       }
-      return result 
+      return result
     },
     //
     //
