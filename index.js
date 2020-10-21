@@ -114,6 +114,7 @@ const fi = (function() {
         }else{
           for(let element of collection) {
             let r = interatee(element)
+            console.log(r)
             if(!newArr.find(x=> element === x) && collection.find(y=> element === r )  ){
               newArr.push(element)
             }
