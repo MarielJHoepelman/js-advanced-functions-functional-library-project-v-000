@@ -95,12 +95,8 @@ const fi = (function() {
 
       for (let element of collection) {
         if (typeof element !== "object") {
-          console.log(typeof element, typeof element !== "object", 'A')
           result.push(element)
         } else {
-          console.log(typeof element, typeof element !== "object", 'B')
-          for (let e of element) {
-            console.log(e)
             result.push(e)
           }
         }
