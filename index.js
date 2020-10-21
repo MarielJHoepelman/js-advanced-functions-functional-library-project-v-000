@@ -93,12 +93,13 @@ const fi = (function() {
     flatten: function(collection) {
       let result = [];
 
-      for (let element of collection) {
-        if (typeof element !== "object") {
-          result.push(element)
-        } else {
-          for (let e of element) {
-            result.push(e)
+      
+      if(isSingleLevel) {
+        for (let element of collection){
+          if (typeof element === "object") {
+            result.push(...this.flatten(element, false))
+          } else {
+            result.push(element)
           }
         }
       }
@@ -117,13 +118,3 @@ const fi = (function() {
 fi.libraryMethod()
 
 
-// if(isSingleLevel) {
-//   for (let element of collection){
-//     if (typeof element === "object") {
-//       result.push(...this.flatten(element, false))
-//     } else {
-//       result.push(element)
-//     }
-//   }
-// }
-// return result
