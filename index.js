@@ -120,7 +120,7 @@ const fi = (function() {
             }
           }
 
-          cosole.log(newArr)
+          console.log(newArr)
         }
 
     },
