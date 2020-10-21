@@ -143,7 +143,7 @@ const fi = (function() {
           result.push(element[0])
         }
       }
-      return array
+      return fi.sort(array)
     },
 
   }
